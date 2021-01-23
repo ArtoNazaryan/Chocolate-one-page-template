@@ -1,0 +1,33 @@
+@media(max-width: 768px){
+	#menu>img{
+		display:block;
+	}
+		#menu ul li{
+			position:relative;
+			right:50px;
+			text-align:center;
+			margin:15px;
+			width:100%;
+	    display:none;
+	}
+	#menu:hover ul li{
+		display:block;
+	}
+	#menu:hover img{
+		display:none;
+	}
+	#menu>#hrefs{
+		margin:0;
+	}
+	#bgi1>#Centertxt>.P2,.P3{
+		font-size:60px;
+	}
+}
+@media(max-width: 360px){
+		#lastdiv>form>.media>.lastp2{
+		font-size:13px;
+	}
+	#lastdiv>form>.media>.lastp2>a{
+		font-size:13px;
+	}
+}
